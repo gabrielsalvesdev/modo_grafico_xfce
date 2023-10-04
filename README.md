@@ -1,0 +1,1 @@
+# modo_grafico_xfce
