@@ -59,7 +59,8 @@ sudo systemctl restart user@0.service
 function reiniciar_vnc_server() {
     echo "Reiniciando o VNC Server..."
     vncserver -kill :1
-    vncserver :1
+    sudo systemctl restart user@0.service
+    vncserver :0
     echo "VNC Server reiniciado."
 }
 
